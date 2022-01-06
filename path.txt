@@ -4,3 +4,4 @@ PATH
     - C:\Program Files\dotnet\
     - C:\Program Files\dotnet\sdk\
     - C:\Go\bin\
+    - C:\sqlite\
