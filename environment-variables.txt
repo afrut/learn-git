@@ -1,3 +1,5 @@
 This is a list of environment variables useful for particular languages.
 
 PYTHONPATH
+CLASSPATH - For Java; Don't forget to add . to include the current directory
+GOPATH
