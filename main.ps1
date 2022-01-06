@@ -202,7 +202,13 @@ git merge origin/remotebranch
 # of otherbranch.
 git merge --no-ff otherbranch
 
-# TODO: git rebase
+# Take commits from current branch and apply to head of otherbranch.
+git rebase otherbranch
+
+# Move the base of a branch branchname from oldbranch to newbranch.
+git rebase --onto newbranch oldbranch branchname
+
+# TODO: git reflog
 
 # --------------------------------------------------------------------------------
 #  Syncing with Remote Repositories
