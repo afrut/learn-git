@@ -7,3 +7,4 @@ PATH
     - C:\sqlite\
     - C:\Python\Python39\
     - C:\Python\Python39\Scripts\
+    - C:\Program Files\Git\cmd
