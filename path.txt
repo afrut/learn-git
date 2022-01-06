@@ -8,3 +8,4 @@ PATH
     - C:\Python\Python39\
     - C:\Python\Python39\Scripts\
     - C:\Program Files\Git\cmd
+    - C:\Program Files\Graphviz2.38\bin
