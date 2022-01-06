@@ -4,3 +4,4 @@ PYTHONPATH
 CLASSPATH - For Java; Don't forget to add . to include the current directory
 GOPATH
 GRAPHVIZ_DOT
+GITHUB-REPO - Personal access token to push to remote repositories on github
