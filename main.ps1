@@ -150,7 +150,7 @@ git checkout branchname
 git checkout origin/remotebranch
 
 # Create a new commit that undoes the last commit.
-# TODO: continue here
+git revert HEAD
 
 # Revert all commits and modifications to tracked files to a remote branch's/
 # local branch's last commit.
@@ -212,6 +212,8 @@ git rebase otherbranch
 # Move the base of a branch branchname from oldbranch to newbranch.
 git rebase --onto newbranch oldbranch branchname
 
+# TODO: git clean
+# TODO: git rm
 # TODO: git reflog
 
 # --------------------------------------------------------------------------------
