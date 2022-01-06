@@ -164,7 +164,10 @@ git reset --mixed
 git checkout -- filename
 
 # Include current staged changes into last commit and change commit message.
-git commit --amend
+git commit --amend -m "new message"
+
+# Change a commit but don't change commit message.
+git commit --amend --no-edit
 
 # --------------------------------------------------------------------------------
 #  Branching
