@@ -9,3 +9,4 @@ PATH
     - C:\Python\Python39\Scripts\
     - C:\Program Files\Git\cmd
     - C:\Program Files\Graphviz2.38\bin
+    - C:\Program Files\Java\jdk-14.0.2\bin
