@@ -47,6 +47,9 @@ git add filename
 git diff *
 git diff filename
 
+# See differences between branch1 and branch2.
+git diff branch1..branch2
+
 # Save changes to the local repository.
 git commit -m "Commit message"
 
