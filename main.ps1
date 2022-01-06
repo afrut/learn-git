@@ -159,6 +159,7 @@ git reset --hard branchname
 
 # Revert the version of filename to HEAD's version.
 git reset HEAD filename
+git reset commitreference filename
 
 # Undo all staged changes.
 git reset --mixed
