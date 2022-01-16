@@ -179,11 +179,15 @@ git commit --amend --no-edit
 # See all local branches.
 git branch
 
-# See all remote branches.
+# See all remote branches/remote branches matching a certain pattern.
 git branch -r
+git brahnc -r --list '*pattern'
 
 # See all branches.
 git branch -a
+
+# Rename current branch to newname.
+git branch -m 'newname'
 
 # Create a new branch called newbranch.
 git checkout -b newbranch
