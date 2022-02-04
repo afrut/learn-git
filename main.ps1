@@ -189,6 +189,9 @@ git branch -a
 # Rename current branch to newname.
 git branch -m 'newname'
 
+# Delete the remote branch origin/somebranch
+git branch -r -d origin/somebranch
+
 # Create a new branch called newbranch.
 git checkout -b newbranch
 
@@ -276,3 +279,9 @@ git pull remotename --rebase
 
 # More details on what is downloaded and merged.
 git pull --verbose
+
+# --------------------------------------------------------------------------------
+#  Misc
+# --------------------------------------------------------------------------------
+# See all files modified in a commit.
+git diff-tree --no-commit-id --name-only -r 7794219
