@@ -186,11 +186,16 @@ git brahnc -r --list '*pattern'
 # See all branches.
 git branch -a
 
-# Rename current branch to newname.
+# Rename current/oldbranch branch to newname.
 git branch -m 'newname'
+git branch -m 'oldbranch' 'newname'
 
-# Delete the remote branch origin/somebranch
+# Delete the remote branch origin/somebranch.
 git branch -r -d origin/somebranch
+
+# Make a remote branch remotename/branchname the remote tracking branch of current/localbranch.
+git branch -u remotename/branchname
+git branch -u remotename/branchname localbranch
 
 # Create a new branch called newbranch.
 git checkout -b newbranch
