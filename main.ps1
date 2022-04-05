@@ -286,6 +286,13 @@ git pull remotename --rebase
 git pull --verbose
 
 # --------------------------------------------------------------------------------
+#  Git Configuration
+# --------------------------------------------------------------------------------
+# Ensure git does not automatically convert CRLF endings when committing and
+# checking out
+git config --local core.autocrlf false
+
+# --------------------------------------------------------------------------------
 #  Misc
 # --------------------------------------------------------------------------------
 # See all files modified in a commit.
