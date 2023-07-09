@@ -185,6 +185,12 @@ git branch -r
 # See all branches.
 git branch -a
 
+# Rename current branch to new_name
+git branch -m new_name
+
+# Rename branch old_name to new_name
+git branch -m old_name new_name
+
 # Create a new branch called newbranch.
 git checkout -b newbranch
 
