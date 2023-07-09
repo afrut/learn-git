@@ -218,10 +218,6 @@ git rebase otherbranch
 # Move the base of a branch branchname from oldbranch to newbranch.
 git rebase --onto newbranch oldbranch branchname
 
-# TODO: git clean
-# TODO: git rm
-# TODO: git reflog
-
 # --------------------------------------------------------------------------------
 #  Syncing with Remote Repositories
 # --------------------------------------------------------------------------------
