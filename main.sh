@@ -200,6 +200,12 @@ git checkout -b newbranch otherbranch
 # Create a new branch based on another remote branch
 git checkout -b newbranch origin/otherbranch
 
+# Delete a local branch
+git branch -d localbranch
+
+# Delete a remote branch
+git push -d origin remotebranch
+
 # --------------------------------------------------------------------------------
 #  Merging Branches
 # --------------------------------------------------------------------------------
