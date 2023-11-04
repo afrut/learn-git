@@ -203,6 +203,10 @@ git checkout -b newbranch origin/otherbranch
 # Delete a local branch
 git branch -d localbranch
 
+# Force delete a local branch
+git branch -d localbranch -f
+git branch -D localbranch
+
 # Delete a remote branch
 git push -d origin remotebranch
 
